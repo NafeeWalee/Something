@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".LoginPage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="85dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="38dp"
+        android:text="@string/username"
+        android:textColor="@color/Ash" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="43dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/pass"
+        android:layout_below="@id/textView2"
+        android:text="@string/password"
+        android:textColor="@color/Ash" />
+
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="#fff"
+        android:inputType="" />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignStart="@+id/user"
+        android:layout_marginBottom="217dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="95dp"
+        android:text="@string/login" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="183dp"
+        android:layout_height="179dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/rainbow_poop"
+        />
+
+</RelativeLayout>

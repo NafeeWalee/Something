@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PooP</string>
+
+    <string name="shinra_tensei">Shinra Tensei</string>
+    <string name="write_something_if_you_can">WRITE SOMETHING IF YOU CAN!</string>
+    <string name="press_this">PRESS THIS</string>
+    <string name="text_will_show_up_here">TEXT WILL SHOW UP HERE</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="text_test">TEXT TEST</string>
+    <string name="start">START</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_frag__nav">Frag_Nav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_frag__nav_">Frag_Nav_Activity</string>
+    <array name="something">
+        <item>Someone</item>
+        <item>Something</item>
+        <item>Sometime</item>
+        <item>Somewhere</item>
+        <item>Somehow</item>
+    </array>
+
+
+</resources>

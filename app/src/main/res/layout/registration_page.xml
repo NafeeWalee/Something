@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationPage"
+    android:background="#FFF"
+   >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="85dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="205dp"
+        android:text="@string/username"
+        android:textColor="@color/colorNew2" />
+
+    <TextView
+
+        android:layout_width="85dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:text="salary:"
+        android:textColor="@color/colorNew2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="37dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="@string/password"
+        android:textColor="@color/colorNew2" />
+
+    <TextView
+
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginBottom="225dp"
+        android:text="Select Something From This Spinner Bar"
+        android:textColor="@color/colorNew2" />
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginEnd="47dp"
+        android:background="#fff"
+        android:inputType=""
+        />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignStart="@+id/user"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/user"
+        android:layout_below="@+id/textView"
+        android:background="#fff"
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="106dp"
+        android:text="Registration"
+        android:textColor="@color/colorNew2"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="265dp"
+        android:layout_height="26dp"
+        android:layout_alignEnd="@+id/user"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="185dp"
+        android:entries="@array/something">
+
+    </Spinner>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="183dp"
+        android:layout_height="179dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/trolllllllll" />
+
+    <TextView
+
+        android:id="@+id/already"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginBottom="79dp"
+        android:text="Already Registered? Click here"
+        android:textColor="@color/colorNew3"
+       />
+
+
+</RelativeLayout>
